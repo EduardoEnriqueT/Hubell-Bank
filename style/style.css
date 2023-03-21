@@ -1,0 +1,96 @@
+
+body {
+    background-color: #E4E4E4;
+}
+
+
+#header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 15px 0;
+}
+
+.first {
+    width: 100%;
+    height: auto;
+    background: url(https://images.unsplash.com/photo-1603654773394-af945a90ea8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1376&q=80) no-repeat;
+    background-size: cover;
+}
+
+li:hover{
+    border-bottom: 1px solid #ffffff;
+}
+
+#login, a{
+    padding-left: 10px;
+}
+#header .logo{
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.first .card{
+    top: 30%;
+    background-color: #a5a59a12;
+    color: white;
+}
+
+.second .card{
+    background-color: #ffffff00;
+    color: #464646d8;
+    border: 0px;
+}
+
+.second .card .card-img, .card-img-bottom, .card-img-top {
+    width: auto;
+}
+
+#front-card img{
+    margin-left: 15%;
+    width: 84%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    padding-top: 15%;
+    margin-left: -15px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    background: #d7dedd;
+}
+
+
+.third{
+    margin-top: 40px;
+}
+
+.third .card{
+    border: 0px;
+}
+
+.third .card-body{
+    color: #656565;
+}
+
+.second .row {
+    margin-right: auto;
+    padding-top: 2%;
+}
+
+
